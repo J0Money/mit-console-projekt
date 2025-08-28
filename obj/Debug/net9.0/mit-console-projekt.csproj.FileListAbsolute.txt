@@ -1,0 +1,14 @@
+C:\Users\joach\mit-console-projekt\bin\Debug\net9.0\mit-console-projekt.exe
+C:\Users\joach\mit-console-projekt\bin\Debug\net9.0\mit-console-projekt.deps.json
+C:\Users\joach\mit-console-projekt\bin\Debug\net9.0\mit-console-projekt.runtimeconfig.json
+C:\Users\joach\mit-console-projekt\bin\Debug\net9.0\mit-console-projekt.dll
+C:\Users\joach\mit-console-projekt\bin\Debug\net9.0\mit-console-projekt.pdb
+C:\Users\joach\mit-console-projekt\obj\Debug\net9.0\mit-console-projekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joach\mit-console-projekt\obj\Debug\net9.0\mit-console-projekt.AssemblyInfoInputs.cache
+C:\Users\joach\mit-console-projekt\obj\Debug\net9.0\mit-console-projekt.AssemblyInfo.cs
+C:\Users\joach\mit-console-projekt\obj\Debug\net9.0\mit-console-projekt.csproj.CoreCompileInputs.cache
+C:\Users\joach\mit-console-projekt\obj\Debug\net9.0\mit-console-projekt.dll
+C:\Users\joach\mit-console-projekt\obj\Debug\net9.0\refint\mit-console-projekt.dll
+C:\Users\joach\mit-console-projekt\obj\Debug\net9.0\mit-console-projekt.pdb
+C:\Users\joach\mit-console-projekt\obj\Debug\net9.0\mit-console-projekt.genruntimeconfig.cache
+C:\Users\joach\mit-console-projekt\obj\Debug\net9.0\ref\mit-console-projekt.dll
