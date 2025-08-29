@@ -12,3 +12,4 @@ C:\Users\joach\mit-console-projekt\obj\Debug\net9.0\refint\mit-console-projekt.d
 C:\Users\joach\mit-console-projekt\obj\Debug\net9.0\mit-console-projekt.pdb
 C:\Users\joach\mit-console-projekt\obj\Debug\net9.0\mit-console-projekt.genruntimeconfig.cache
 C:\Users\joach\mit-console-projekt\obj\Debug\net9.0\ref\mit-console-projekt.dll
+C:\Users\joach\mit-console-projekt\obj\Debug\net9.0\mit-console-projekt.sourcelink.json

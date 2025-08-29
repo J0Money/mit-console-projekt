@@ -120,10 +120,35 @@ modul.CountNielsen();
 modul.FindÆdste();
 */
 
-/*Opgave 2
+/*Opgave 2.1
 var modul = new modul2();
     modul.FindPersonFraNummer();
 */
 
+/*Opgave 2.2
 var modul = new modul2();
 modul.FindOver30();
+*/
+
+/* Opgave 2.3
+var modul = new modul2();
+modul.FjernLandeKode();
+*/
+
+/* Opgave 2.4
+var modul = new modul2();
+    modul.YngreEnd30();
+*/
+
+/* opgave 3.1
+var modul = new modul2();
+var FilterBadWords = modul.CreateWordFilterFn();
+Console.WriteLine(FilterBadWords("Sikke en gang lort og fuck"));
+*/
+
+/* opgave 3.2
+var modul = new modul2();
+var badWords = new string[] { "lort", "fuck", "idiot" };
+var ReplaceBadWords = modul.CreateWordReplacerFn(badWords, "kage");
+Console.WriteLine(ReplaceBadWords("Sikke en gang lort"));
+*/

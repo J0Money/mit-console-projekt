@@ -62,5 +62,59 @@ public class modul2
         }
         
     }
-    
+
+    public void FjernLandeKode()
+    {
+        var personerUdenLadekode = people
+            .Select(person => new Person 
+            {
+                Name = person.Name,
+                Age = person.Age,
+                Phone = person.Phone.Replace("+45", ""),
+            })
+            .ToArray();
+        Console.WriteLine("Personers Uden Ladekode:");
+        foreach (var person in personerUdenLadekode)
+        {
+            Console.WriteLine($"{person.Name}: {person.Phone} ");
+        }
+        
+        /* Uden Foreach Loop
+        Console.WriteLine(
+            "Personer uden landekode: " +
+            string.Join(" | ", personerUdenLandekode.Select(p => $"{p.Name}: {p.Phone}"))
+            */
+    }
+
+    public void YngreEnd30()
+    {
+        var result = string.Join(",", people
+        .Where(person => person.Age < 30)
+        .Select(person => $"{person.Name}: {person.Phone}"));
+        Console.WriteLine(result);
+    }
+
+    public Func<string, string> CreateWordFilterFn(string[] badWords = null)
+    {
+        badWords ??= new string[] { "lort", "fuck" };
+
+        return text =>
+        {
+            var allWords = text.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            var filteredWords = allWords
+                .Where(word => !badWords.Contains(word));
+            return string.Join(" ", filteredWords);
+        };
+    }
+
+    public Func<string, string> CreateWordReplacerFn(string[] words, string replacementWord)
+    {
+        return text =>
+        {
+            var allWords = text.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            var replacedWords = allWords
+                .Select(word => words.Contains(word) ? replacementWord : word);
+            return string.Join(" ", replacedWords);
+        };
+    }
 }
